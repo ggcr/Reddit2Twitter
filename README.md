@@ -31,9 +31,9 @@ TOP_TIME="week"
 ADDITIONAL_TEXT="" # If you want to include additional text after the Reddit Post title to the tweet 
 ```
 
-## EXAMPLE
+## Example
 We want to upload the 2 top posts of Today from [r/pics](https://www.reddit.com/r/pics).
-![r/pics top 2 posts of today][./demo/pics_top.jpeg]
+![r/pics top 2 posts of today][/demo/pics_top.jpeg]
 First we write our API credentials and query parameters:
 ![API credentials and query parameters][./demo/query.jpeg]
 Then we execute the program giving us the following output:
