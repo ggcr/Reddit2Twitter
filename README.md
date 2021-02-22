@@ -12,7 +12,6 @@ git clone https://github.com/ggcr/Reddit2Twitter.git ~/
 jupyter notebook ~/Reddit2Twitter/Reddit2Twitter.ipynb
 ```
 Also you will have to write your APIs credentials.
-```
 
 ## Example
 We want to upload the 2 top posts of Today from [r/pics](https://www.reddit.com/r/pics).
