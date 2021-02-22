@@ -35,7 +35,24 @@ ADDITIONAL_TEXT="" # If you want to include additional text after the Reddit Pos
 We want to upload the 2 top posts of Today from [r/pics](https://www.reddit.com/r/pics).
 ![r/pics top 2 posts of today](./demo/pics_top.jpeg)
 First we write our API credentials and query parameters:
-![API credentials and query parameters](./demo/query.jpeg)
+```
+# TWITTER API CONF VALUES
+CONSUMER_KEY="***********************************"
+CONSUMER_SECRET="***********************************"
+ACCESS_TOKEN="***********************************"
+ACCESS_TOKEN_SECRET="***********************************"
+
+# PRAW API CONF VALUES
+REDDIT_API_INSTANCE="**********"
+
+# Reddit query
+SUBREDDIT_NAME="pics"
+LIMIT_POSTS=2
+ORDER_BY="top"
+TOP_TIME="day"
+
+ADDITIONAL_TEXT="Hello Github! :)" # If you want to include additional text after the Reddit Post title to the tweet 
+```
 Then we execute the program giving us the following output:
 ![output](./demo/output.png)
 Finally the program uploads the images to our Twitter account. Note the additional text displayed too ;)
