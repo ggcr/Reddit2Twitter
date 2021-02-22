@@ -1,8 +1,35 @@
 # Reddit2Twitter
 This is a python client to use the Python Reddit API Wrapper and the Tweepy API in order to fetch the Title and Image of a Query to Reddit and upload it to Twitter.
 
-## Basic Usage
+## Installation
 In order to use the app you will need:
-- [Jupyter Notebook](https://www.google.com)
-- An account with access to both Reddit and Twitter API
-- An instance of the Python Reddit API Wrapper using the your own Reddit API
+- [Jupyter Notebook](https://jupyter.org/)
+- An account with access to both [Reddit](https://github.com/reddit-archive/reddit/wiki/API) and [Twitter](https://developer.twitter.com/en/docs/twitter-api) APIs
+- An instance of the [Python Reddit API Wrapper](https://praw.readthedocs.io/en/latest/getting_started/installation.html) using your own Reddit API
+Once you have all the above you can clone the repo and open a notebook:
+```
+git clone https://github.com/ggcr/Reddit2Twitter.git ~/
+jupyter notebook ~/Reddit2Twitter/Reddit2Twitter.ipynb
+```
+Then you will have to write your APIs credentials:
+```
+# TWITTER API CONF VALUES
+CONSUMER_KEY=""
+CONSUMER_SECRET=""
+ACCESS_TOKEN=""
+ACCESS_TOKEN_SECRET=""
+
+# PRAW API CONF VALUES
+REDDIT_API_INSTANCE=""
+
+# PRAW API CONF VALUES
+SUBREDDIT_NAME="europe"
+LIMIT_POSTS=10
+ORDER_BY="top"
+TOP_TIME="week"
+
+ADDITIONAL_TEXT="" # If you want to include additional text after the Reddit Post title to the tweet 
+
+# PRAW API CONF VALUES
+REDDIT_API_INSTANCE=""
+```
