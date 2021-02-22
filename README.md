@@ -6,6 +6,7 @@ In order to use the app you will need:
 - [Jupyter Notebook](https://jupyter.org/)
 - An account with access to both [Reddit](https://github.com/reddit-archive/reddit/wiki/API) and [Twitter](https://developer.twitter.com/en/docs/twitter-api) APIs
 - An instance of the [Python Reddit API Wrapper](https://praw.readthedocs.io/en/latest/getting_started/installation.html) using your own Reddit API
+
 Once you have all the above you can clone the repo and open a notebook:
 ```
 git clone https://github.com/ggcr/Reddit2Twitter.git ~/
