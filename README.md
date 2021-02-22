@@ -33,10 +33,10 @@ ADDITIONAL_TEXT="" # If you want to include additional text after the Reddit Pos
 
 ## Example
 We want to upload the 2 top posts of Today from [r/pics](https://www.reddit.com/r/pics).
-![r/pics top 2 posts of today][/demo/pics_top.jpeg]
+![r/pics top 2 posts of today](./demo/pics_top.jpeg)
 First we write our API credentials and query parameters:
-![API credentials and query parameters][./demo/query.jpeg]
+![API credentials and query parameters](./demo/query.jpeg)
 Then we execute the program giving us the following output:
-![output][./demo/output.png]
+![output](./demo/output.png)
 Finally the program uploads the images to our Twitter account. Note the additional text displayed too ;)
-![result twitter][./demo/result.jpeg]
+![result twitter](./demo/result.jpeg)
