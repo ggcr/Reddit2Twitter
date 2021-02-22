@@ -11,24 +11,7 @@ Once you have all the above you can clone the repo and open a notebook:
 git clone https://github.com/ggcr/Reddit2Twitter.git ~/
 jupyter notebook ~/Reddit2Twitter/Reddit2Twitter.ipynb
 ```
-Then you will have to write your APIs credentials:
-```
-# TWITTER API CONF VALUES
-CONSUMER_KEY=""
-CONSUMER_SECRET=""
-ACCESS_TOKEN=""
-ACCESS_TOKEN_SECRET=""
-
-# PRAW API CONF VALUES
-REDDIT_API_INSTANCE=""
-
-# PRAW API CONF VALUES
-SUBREDDIT_NAME="europe"
-LIMIT_POSTS=10
-ORDER_BY="top"
-TOP_TIME="week"
-
-ADDITIONAL_TEXT="" # If you want to include additional text after the Reddit Post title to the tweet 
+Also you will have to write your APIs credentials.
 ```
 
 ## Example
